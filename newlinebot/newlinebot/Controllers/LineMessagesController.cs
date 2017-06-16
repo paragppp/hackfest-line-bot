@@ -179,7 +179,7 @@ namespace newlinebot.Controllers
             }
             else
             {
-                replyMessage = new TextMessage(textMessage.Text);
+                replyMessage = new TextMessage($"You said: {textMessage.Text}");
             }
             await Reply(replyMessage);
         }
