@@ -143,7 +143,7 @@ namespace newlinebot.Controllers
                 List<TemplateAction> actions = new List<TemplateAction>();
                 actions.Add(new MessageTemplateAction("Message Label", "sample data"));
                 actions.Add(new PostbackTemplateAction("Postback Label", "sample data", "sample data"));
-                actions.Add(new UriTemplateAction("Uri Label", "https://github.com/kenakamu"));
+                actions.Add(new UriTemplateAction("Uri Label", "https://github.com/paragppp"));
                 ButtonsTemplate buttonsTemplate = new ButtonsTemplate("https://github.com/apple-touch-icon.png", "Sample Title", "Sample Text", actions);
 
                 replyMessage = new TemplateMessage("Buttons", buttonsTemplate);
@@ -162,7 +162,7 @@ namespace newlinebot.Controllers
                 List<TemplateAction> actions = new List<TemplateAction>();
                 actions.Add(new MessageTemplateAction("Message Label", "sample data"));
                 actions.Add(new PostbackTemplateAction("Postback Label", "sample data", "sample data"));
-                actions.Add(new UriTemplateAction("Uri Label", "https://github.com/kenakamu"));
+                actions.Add(new UriTemplateAction("Uri Label", "https://github.com/paragppp"));
                 columns.Add(new TemplateColumn() { Title = "Casousel 1 Title", Text = "Casousel 1 Text", ThumbnailImageUrl = "https://github.com/apple-touch-icon.png", Actions = actions });
                 columns.Add(new TemplateColumn() { Title = "Casousel 2 Title", Text = "Casousel 2 Text", ThumbnailImageUrl = "https://github.com/apple-touch-icon.png", Actions = actions });
                 CarouselTemplate carouselTemplate = new CarouselTemplate(columns);
